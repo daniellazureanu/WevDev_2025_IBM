@@ -2,8 +2,8 @@ import { GRID_SIZE } from "../constants/constants";
 import { SOLIDS_MATRIX } from '../constants/constants';
 
 const initialState = {
-  x: 0,
-  y: 0
+  x: 4,
+  y: 5
 };
 
 const isWalkable = (x, y) => {

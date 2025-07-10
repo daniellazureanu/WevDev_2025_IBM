@@ -22,15 +22,20 @@
   border: 1px solid #ccc;
   padding: 0;
   aspect-ratio: 1 / 1;
-  background-image: url('../../../public/grass.jpg');
   box-sizing: border-box;
 }
-.player-cell{
-    background-image: none;
-    background-color: red;
+
+.map-cell.dirt-cell{
+  background-image: url('../../../public/grass.jpg');
+}
+.map-cell.player-cell{
+  background-image:
+    url('../../../public/player.png'),
+    url('../../../public/grass.jpg');
 }
 
-.solid-cell {
-  background-image: none;
-  background-color: #333; /* Darker for solid blocks */
+.map-cell.tree-cell {
+  background-image: 
+    url('../../../public/tree.png'), 
+    url('../../../public/grass.jpg');
 }
